@@ -15,6 +15,15 @@ A bash script to extract highlights from Kobo e-reader devices and copy them dir
 - **SQLite3** (typically pre-installed on macOS)
 - **fzf** (optional, for interactive book selection) - Install with `brew install fzf`
 - **Connected Kobo device** or access to Kobo database file
+- ExportHighlights=true set in the .conf file of the Kobo 
+
+## Preparing the Kobo
+
+You have to first enable highlights by editing .kobo/Kobo/Kobo eReader.conf and adding: 
+
+	ExportHighlights=true
+	
+Source: https://gist.github.com/samuelsmal/0f0b7a87fbbfe4798cb572bbf1394de4
 
 ## Usage
 
