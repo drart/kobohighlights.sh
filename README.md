@@ -35,7 +35,6 @@ A bash script to extract highlights from Kobo e-reader devices and copy them dir
 ## Installation
 
 ```bash
-curl -O https://raw.githubusercontent.com/yourusername/kobo-highlights-extractor/main/extractHighlights.sh
 chmod +x extractHighlights.sh
 ```
 
